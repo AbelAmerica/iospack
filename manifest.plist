@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pushgoplay.00n07</string>
+				<string>com.gptest.goplay</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
 				<key>kind</key>
