@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/57.png</string>
+					<string>https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/test_icon.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/512.png</string>
+					<string>https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/test_icon.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
