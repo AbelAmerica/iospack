@@ -1,2 +1,9 @@
 itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/manifest.plist
 https://abelamerica.github.io/
+
+
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/pre.plist
+
+
+
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AbelAmerica/iospack/refs/heads/main/main.plist
