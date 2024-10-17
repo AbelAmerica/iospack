@@ -1,1 +1,2 @@
 GoPlay.ipa filter=lfs diff=lfs merge=lfs -text
+goplay-mobile.ipa filter=lfs diff=lfs merge=lfs -text
