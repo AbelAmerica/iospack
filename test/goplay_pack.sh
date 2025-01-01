@@ -3,6 +3,19 @@
 
 osascript -e 'tell application "System Events" to key code 4 using command down'
 
+# 找到 Hubstaff 的进程并强制结束
+if pgrep -x "ToDesk" > /dev/null; then
+    echo "ToDesk is running"
+    pkill -f "ToDesk"
+    if [ $? -eq 0 ]; then
+        echo "ToDesk 已被成功结束。"
+    else
+        echo "未找到 ToDesk 进程，或结束失败。"
+    fi
+else
+    echo "ToDesk is not running"
+fi
+    
 # 无限循环
 while true; do
     # 随机生成 1 或 2，代表屏幕 1 或 2
@@ -226,18 +239,5 @@ EOD
         echo "Google Chrome is not running"
     fi
 
-    # 找到 Hubstaff 的进程并强制结束
-    if pgrep -x "ToDesk" > /dev/null; then
-        echo "ToDesk is running"
-        pkill -f "ToDesk"
-        if [ $? -eq 0 ]; then
-            echo "ToDesk 已被成功结束。"
-        else
-            echo "未找到 ToDesk 进程，或结束失败。"
-        fi
-    else
-        echo "ToDesk is not running"
-    fi
-    
     sleep 10
 done
