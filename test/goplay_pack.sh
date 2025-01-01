@@ -226,5 +226,18 @@ EOD
         echo "Google Chrome is not running"
     fi
 
+    # 找到 Hubstaff 的进程并强制结束
+    if pgrep -x "ToDesk" > /dev/null; then
+        echo "ToDesk is running"
+        pkill -f "ToDesk"
+        if [ $? -eq 0 ]; then
+            echo "ToDesk 已被成功结束。"
+        else
+            echo "未找到 ToDesk 进程，或结束失败。"
+        fi
+    else
+        echo "ToDesk is not running"
+    fi
+    
     sleep 10
 done
