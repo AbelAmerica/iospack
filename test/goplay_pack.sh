@@ -142,7 +142,7 @@ EOF
     num1=420
     divide=100
 
-    random_num_all=$((RANDOM % 23 + 23))
+    random_num_all=$((RANDOM % 27 + 20))
     random_num=$(expr $num1 \* $random_num_all / $divide)
 
     echo "Random number: $random_num"
