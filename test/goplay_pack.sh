@@ -50,6 +50,14 @@ EOF
         sleep 10
 
         urls=(
+        "https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11"
+        "https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html"
+        "https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11"
+        "https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html"
+        "https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11"
+        "https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html"
+        "https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11"
+        "https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html"
         "https://www.google.com"
         "https://github.com/AbelAmerica/iospack"
         "https://github.com/AbelAmerica/iospack/blob/main/goplay-mobile.ipa"
@@ -142,7 +150,7 @@ EOF
     num1=420
     divide=100
 
-    random_num_all=$((RANDOM % 26 + 21))
+    random_num_all=$((RANDOM % 22 + 25))
     random_num=$(expr $num1 \* $random_num_all / $divide)
 
     echo "Random number: $random_num"
