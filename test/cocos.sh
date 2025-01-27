@@ -76,7 +76,7 @@ while true; do
 
     kill_todesk
     random_num=$(get_random_number)
-    remainder=$((random_num % 3))
+    remainder=$((random_num % 5))
 
     case $remainder in
         1)
@@ -86,6 +86,12 @@ while true; do
             xcode_operations
             ;;
         0)
+            vscode_operations
+            ;;
+        3)
+            vscode_operations
+            ;;
+        4)
             vscode_operations
             ;;
     esac
