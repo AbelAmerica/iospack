@@ -14,7 +14,7 @@ get_random_number() {
 
 # 打开随机网址的函数
 open_random_url() {
-    local url_list_file="~/Documents/GitHub/iospack/test/url_list.sh" # 假设网址列表文件名为url_list.txt
+    local url_list_file="/Users/mask/Documents/GitHub/iospack/test/url_list.sh" # 假设网址列表文件名为url_list.txt
     local url=$(shuf -n 1 $url_list_file)
     open -a "Google Chrome" "$url"
     # 这里需要额外的逻辑来处理标签数量，可能需要使用AppleScript或其他工具
@@ -22,14 +22,14 @@ open_random_url() {
 
 # 在Xcode中操作
 xcode_operations() {
-    local project_path="~/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为你的Xcode项目路径
+    local project_path="/Users/mask/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为你的Xcode项目路径
     open -a Xcode "$project_path"
     # 这里需要额外的逻辑来切换窗口和滚动代码，可能需要使用AppleScript或其他工具
 }
 
 # 在VSCode中操作
 vscode_operations() {
-    local project_path="~/Documents/GitHub/newslots-games-cocos/" # 替换为你的VSCode项目路径
+    local project_path="/Users/mask/Documents/GitHub/newslots-games-cocos/" # 替换为你的VSCode项目路径
     open -a "Visual Studio Code" "$project_path"
     # 这里需要额外的逻辑来切换窗口和滚动代码，可能需要使用AppleScript或其他工具
 }
