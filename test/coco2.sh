@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 隐藏终端窗口
-osascript -e 'tell application "Terminal" to set visible of front window to false' &
+osascript -e 'tell application "Terminal" to close first window' &
 
 # 进程控制函数
 kill_todesk() {
