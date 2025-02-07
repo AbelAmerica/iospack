@@ -27,9 +27,9 @@ while true; do
         echo "切换到屏幕 1"
         echo "打开项目"
 
-        # open -a Xcode /Users/lanyao/Documents/GitHub/newslots-games-cocos/native/engine/ios/service/FirebaseSDK.m
+        # open -a Xcode /Users/mask/Documents/GitHub/newslots-games-cocos/native/engine/ios/service/FirebaseSDK.m
         # 随机选择屏幕 1 或屏幕 2
-        PROJECT_PATH="/Users/lanyao/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为实际文件路径
+        PROJECT_PATH="/Users/mask/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为实际文件路径
         echo "Switching to screen  and opening $file_path"
 
         # 打开指定项目
@@ -93,9 +93,9 @@ EOF
         if [ "$screen" -eq 1 ]; then
             echo "打开项目"
 
-            # open -a Xcode /Users/lanyao/Documents/GitHub/newslots-games-cocos/native/engine/ios/service/FirebaseSDK.m
+            # open -a Xcode /Users/mask/Documents/GitHub/newslots-games-cocos/native/engine/ios/service/FirebaseSDK.m
             # 随机选择屏幕 1 或屏幕 2
-            PROJECT_PATH="/Users/lanyao/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为实际文件路径
+            PROJECT_PATH="/Users/mask/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为实际文件路径
             echo "Switching to screen  and opening $file_path"
 
 
@@ -118,7 +118,7 @@ EOF
             echo "随机打开文件"
 
             # 指定要搜索的目录
-            TARGET_DIR="/Users/lanyao/Documents/GitHub/newslots-games-cocos/native/engine/ios"
+            TARGET_DIR="/Users/mask/Documents/GitHub/newslots-games-cocos/native/engine/ios"
 
             # 获取该目录及其子目录中的所有文件路径
             FILES=($(find "$TARGET_DIR" -type f))
