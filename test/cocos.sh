@@ -107,7 +107,7 @@ while true; do
         xcode_operations
         ;;
     3)
-        xcode_operations
+        vscode_operations
         ;;
     4)
         vscode_operations
