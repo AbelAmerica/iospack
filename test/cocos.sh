@@ -120,20 +120,3 @@ while true; do
 
     simulate_keyboard_input
 done
-
-# trae_operations
-# 0)
-#     open_random_url
-#     ;;
-# 1)
-#     open_random_url
-#     ;;
-# 2)
-#     xcode_operations
-#     ;;
-# 3)
-#     vscode_operations
-#     ;;
-# 4)
-#     vscode_operations
-#     ;;
