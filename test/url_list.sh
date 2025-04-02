@@ -1,10 +1,3 @@
-https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11
-https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html
-https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11
-https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html
-https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11
-https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html
-https://www.bilibili.com/video/BV1HY411H7V5/?spm_id_from=333.788.videopod.episodes&vd_source=263a9bf4c1360296ae85fa5d618aec2f&p=11
 https://docs.cocos.com/creator/2.4/manual/zh/components/sprite.html
 https://www.google.com
 https://github.com/AbelAmerica/iospack
