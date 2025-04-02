@@ -38,7 +38,7 @@ EOD
     done
 
     # 访问随机网址
-    local url=$(shuf -n 1 ~/Documents/GitHub/iospack/test/url_list.txt)
+    local url=$(shuf -n 1 $HOME/Documents/GitHub/iospack/test/url_list.txt)
     open -a "Google Chrome" "$url"
     maximize_window
 }
@@ -127,10 +127,10 @@ while true; do
             browser_operation
             ;;
         2)
-            ide_operation "Xcode" "~/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace"
+            ide_operation "Xcode" "$HOME/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace"
             ;;
         *)
-            ide_operation "Visual Studio Code" "~/Documents/GitHub/newslots-games-cocos/"
+            ide_operation "Visual Studio Code" "$HOME/Documents/GitHub/newslots-games-cocos/"
             ;;
     esac
 

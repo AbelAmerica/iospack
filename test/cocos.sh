@@ -14,22 +14,23 @@ get_random_number() {
 
 # 打开随机网址的函数
 open_random_url() {
-    local url_list_file="~/Documents/GitHub/iospack/test/url_list.sh" # 假设网址列表文件名为url_list.txt
+    local url_list_file="$HOME/Documents/GitHub/iospack/test/url_list.sh" # 假设网址列表文件名为url_list.txt
     local url=$(shuf -n 1 $url_list_file)
+    echo $url
     open -a "Google Chrome" "$url"
     # 这里需要额外的逻辑来处理标签数量，可能需要使用AppleScript或其他工具
 }
 
 # 在Xcode中操作
 xcode_operations() {
-    local project_path="~/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为你的Xcode项目路径
+    local project_path="$HOME/Documents/GitHub/newslots-games-cocos/build/ios/proj/goplay.xcworkspace" # 替换为你的Xcode项目路径
     open -a Xcode "$project_path"
     # 这里需要额外的逻辑来切换窗口和滚动代码，可能需要使用AppleScript或其他工具
 }
 
 # 在VSCode中操作
 vscode_operations() {
-    local project_path="~/Documents/GitHub/newslots-games-cocos/" # 替换为你的VSCode项目路径
+    local project_path="$HOME/Documents/GitHub/newslots-games-cocos/" # 替换为你的VSCode项目路径
     open -a "Visual Studio Code" "$project_path"
     # 这里需要额外的逻辑来切换窗口和滚动代码，可能需要使用AppleScript或其他工具
 }
@@ -65,7 +66,7 @@ EOF
     done
 }
 
-
+# osascript -e 'tell application "System Events" to key code 4 using command down'
 # 主循环
 while true; do
     current_time=$(date +%H:%M)
@@ -76,17 +77,17 @@ while true; do
 
     kill_todesk
     random_num=$(get_random_number)
-    remainder=$((random_num % 5))
-
+    remainder=$((random_num % 2))
+    echo "随机数$remainder"
     case $remainder in
         0)
             open_random_url
             ;;
         1)
-            xcode_operations
+            open_random_url
             ;;
         2)
-            vscode_operations
+            xcode_operations
             ;;
         3)
             vscode_operations
