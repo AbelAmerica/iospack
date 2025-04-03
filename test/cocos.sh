@@ -81,9 +81,12 @@ EOF
         # 等待间隔（总间隔1秒）
         sleep 0.8
     done
+
+    sleep $sleep_time
+
 }
 
-# osascript -e 'tell application "System Events" to key code 4 using command down'
+osascript -e 'tell application "System Events" to key code 4 using command down'
 # 主循环
 while true; do
     current_time=$(date +%H:%M)
